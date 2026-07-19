@@ -1,0 +1,72 @@
+                        .container {
+                            display: flex;
+                            /* background-color: red; */
+                            height: 100vh;
+                        }
+                        
+                        .leftDiv {
+                            width: 70%;
+                            background-color: beige;
+                            padding: 15px;
+                        }
+                        
+                        .rightDiv {
+                            width: 30%;
+                            background-color: antiquewhite;
+                            padding: 20px;
+                            display: flex;
+                            flex-direction: column;
+                            justify-content: space-between
+                        }
+                        
+                        .navbar {
+                            display: flex;
+                            justify-content: space-between;
+                            background-color: yellow;
+                            padding: 15px;
+                        }
+                        
+                        .pagename {
+                            font-size: 3rem;
+                            font-family: 'Courier New', Courier, monospace;
+                            font-weight: bold;
+                        }
+                        
+                        .logo {
+                            background-color: darkcyan;
+                            border-radius: 50%;
+                            height: 40px;
+                            width: 40px;
+                            display: flex;
+                            justify-content: center;
+                            text-align: center;
+                        }
+                        
+                        .products {
+                            display: flex;
+                            justify-content: space-around;
+                            padding: 10px
+                        }
+                        
+                        .product {
+                            background-color: bisque;
+                            width: 300px;
+                            height: 150px;
+                            padding: 10px;
+                            box-shadow: 20px 15px 5px black;
+                        }
+                        
+                        .category {
+                            color: white;
+                            background-color: darksalmon;
+                            width: 25%;
+                            border-radius: 40%;
+                            text-align: center;
+                        }
+                        
+                        .checkOutButton {
+                            width: 50%;
+                            height: 30px;
+                            border-radius: 30%;
+                            border: none;
+                        }
