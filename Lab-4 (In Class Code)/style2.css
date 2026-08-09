@@ -1,0 +1,24 @@
+.div1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid red;
+}
+
+.div2 {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    grid-template-rows: 50fr 50r;
+}
+
+.div2 div {
+    border: 1px solid black;
+    grid-row: 1/2;
+}
+
+.div3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid red;
+}
