@@ -1,0 +1,130 @@
+.container {
+    height: 100vh;
+    width: 100%;
+    background-color: rgb(199, 206, 206);
+    display: flex;
+}
+.col1 {
+    background-color: rgb(21, 21, 59);
+    width: 30%;
+}
+.head {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    background-color: rgb(120, 120, 171);
+    
+}
+.options {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    color: azure;
+    width: 100%;
+    height: 80vh;
+    font-size: 1.4rem;
+}
+.op>p{
+    margin-left: 30px;
+}
+.col2 {
+    width: 70%;
+    padding:20px;
+}
+
+.searchBar {
+    height: 30px;
+    width: 300px;
+    border-radius: 5px;
+    background-color: white;
+    display: flex;
+    align-items: center;
+}
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.subjects {
+    margin-top: 20px;
+    width: 100%;
+    height: 45vh;
+    
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.card {
+    width: 28%;
+    height: 38vh;
+    background-color: white;
+    border-radius: 10px;
+}
+.upper {
+    height: 24vh;
+    width: 100%;
+    background: linear-gradient(to right, rgb(176, 102, 102), rgb(124, 207, 124));
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.upper > p, h3 {
+    margin-left: 10px;
+    color: white;
+
+}
+.prPr {
+    width: 95%;
+    height: 10px;
+    background-color: grey;
+    margin-top: 10px;
+}
+
+.prCl {
+    width: 75%;
+    height: 10px;
+    background-color: green;
+}
+
+.lower {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    align-items: center;
+}
+
+.text {
+   
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+.footer {
+    
+    margin-top: 10px;
+    width: 905;
+    height: 32vh;
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    
+    border-radius: 5px;
+    color: black;
+    padding: 20px;
+    flex-direction: column;
+}
+
+.card2 {
+    width: 28%;
+    height: 20vh;
+    background-color: orange;
+    border-radius: 10px;
+}
+
+.cr {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
